@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
+  base: "/misteri-box-tata-surya/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
